@@ -1,6 +1,6 @@
 pipeline {
 
-  agent { node { label 'swarm-ci' } }
+  agent { node { label 'dockeragent' } }
 
   stages {
 
